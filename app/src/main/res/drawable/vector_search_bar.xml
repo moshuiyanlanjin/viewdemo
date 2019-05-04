@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="150dp"
+        android:height="24dp"
+        android:viewportWidth="150"
+        android:viewportHeight="24">
+    <!--搜索图形-->
+    <path
+        android:name="search"
+        android:pathData="M141,17 A9,9 0 1,1 142,16 L149,23"
+        android:strokeWidth="2"
+        android:strokeColor="@android:color/darker_gray"
+        />
+    <!--底部横线-->
+    <path
+        android:name="bars"
+        android:pathData="M0,23 L149,23"
+        android:strokeColor="@android:color/darker_gray"
+        android:strokeWidth="2"
+        />
+
+</vector>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fromXScale="0.0"
+    android:fromYScale="0.0"
+    android:toXScale="1.4"
+    android:toYScale="1.4"
+    android:duration="700"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:fillBefore="true"
+    android:repeatCount="10"
+    android:repeatMode="reverse"
+    >
+
+</scale>
+
+<!--pivotX,pivotY动画起始坐标，可以是50,50%，60%p,不影响结束坐标-->
+<!--android:fillAfter="true"保持动画结束状态，然后不恢复正常大小-->
+<!--android:fillBefore="true"还原到初始状态，默认为true-->
+<!--android:repeatMode="restart"循环重放,android:repeatMode="reverse"倒放，android:repeatCount="10"循环次数,android:repeatCount="infinte",无限循环-->

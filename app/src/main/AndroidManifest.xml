@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.viewdemo.hz.viewdemo">
+
+    <application
+        android:allowBackup="true"
+        android:name=".App.MyApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SpiderActivity"/>
+        <activity android:name=".activity.TextOneActivity"/>
+        <activity android:name=".activity.RegiononeActivity"/>
+        <activity android:name=".activity.CanvasActivity"/>
+        <activity android:name=".activity.CustomCircleActivity"/>
+        <activity android:name=".activity.CliprgnActivity"/>
+        <activity android:name=".activity.ViewAnimationOneActivity"/>
+        <activity android:name=".activity.ViewAnimationtwoActivity"/>
+        <activity android:name=".activity.ScannerActivity"/>
+        <activity android:name=".activity.ValueAnimatoroneActivity"/>
+        <activity android:name=".activity.ImageValueanimtoroneActivity"/>
+        <activity android:name=".activity.ThelettermailActivity"/>
+        <activity android:name=".activity.SimpleparabolicActivity"/>
+        <activity android:name=".activity.ScaleAnimationOneActivity"/>
+        <activity android:name=".activity.BlendAnimationOneActivity"/>
+        <activity android:name=".activity.Rotatethepop_upActivity"/>
+        <activity android:name=".activity.ThephonerangthebellActivity"/>
+        <activity android:name=".activity.ItemAnimatorActivity"/>
+        <activity android:name=".activity.FunctiononeActivity"/>
+        <activity android:name=".activity.RotatingloadActivity"/>
+        <activity android:name=".activity.AliPlayActivity"/>
+        <activity android:name=".activity.SVGuseActivity"/>
+        <activity android:name=".activity.TextViewDemooneActivity"/>
+        <activity android:name=".activity.BezierActivity"/>
+        <activity android:name=".activity.BezierTwoActivity"/>
+        <activity android:name=".activity.BezierThreeActivity"/>
+        <activity android:name=".activity.ShadowoneLayerActivity"/>
+        <activity android:name=".activity.BlurMaskFilterOneActivity"/>
+        <activity android:name=".activity.BitmapShaderViewActivity"/>
+    </application>
+
+</manifest>

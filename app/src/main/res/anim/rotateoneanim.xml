@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fromDegrees="0"
+    android:toDegrees="-600"
+    android:duration="3000"
+    android:fillAfter="true"
+    android:pivotX="50%p"
+    android:pivotY="50%p"
+    >
+
+</rotate>
+<!--android:fillAfter="true",保留动画结束状态-->
