@@ -46,6 +46,7 @@
         <activity android:name=".activity.ShadowoneLayerActivity"/>
         <activity android:name=".activity.BlurMaskFilterOneActivity"/>
         <activity android:name=".activity.BitmapShaderViewActivity"/>
+        <activity android:name=".activity.TelescopeActivity"/>
     </application>
 
 </manifest>

@@ -30,6 +30,7 @@ import com.viewdemo.hz.viewdemo.activity.ScannerActivity;
 import com.viewdemo.hz.viewdemo.activity.ShadowoneLayerActivity;
 import com.viewdemo.hz.viewdemo.activity.SimpleparabolicActivity;
 import com.viewdemo.hz.viewdemo.activity.SpiderActivity;
+import com.viewdemo.hz.viewdemo.activity.TelescopeActivity;
 import com.viewdemo.hz.viewdemo.activity.TextOneActivity;
 import com.viewdemo.hz.viewdemo.activity.TextViewDemooneActivity;
 import com.viewdemo.hz.viewdemo.activity.ThelettermailActivity;
@@ -92,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
         recylist.add("阴影1");
         recylist.add("发光1");
         recylist.add("颜色填充");
+        recylist.add("望远镜效果");
     }
 
     private void initview() {
@@ -218,6 +220,10 @@ public class MainActivity extends AppCompatActivity {
                     case 28:
                         //颜色填充
                         startActivity(new Intent(MainActivity.this,BitmapShaderViewActivity.class));
+                        break;
+                    case 29:
+                        //望远镜效果
+                        startActivity(new Intent(MainActivity.this,TelescopeActivity.class));
                         break;
                 }
             }

@@ -41,7 +41,7 @@ public class BitmapShaderView extends View {
     private void init() {
         paint = new Paint();
         bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.longes);
-        paint.setShader(new BitmapShader(bitmap, Shader.TileMode.REPEAT,Shader.TileMode.REPEAT));
+        paint.setShader(new BitmapShader(bitmap, Shader.TileMode.CLAMP,Shader.TileMode.CLAMP));
     }
 
     @Override
