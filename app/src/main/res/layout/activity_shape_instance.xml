@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_shape_corner"
+        android:text="添加圆角"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shape_tv"
+        android:layout_marginTop="100dp"
+        android:text="shape实例"
+        android:padding="10dp"
+        android:background="@drawable/shape_solid"
+        />
+    <com.viewdemo.hz.viewdemo.View.ShapeoneView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:background="#ffffff"/>
+</RelativeLayout>

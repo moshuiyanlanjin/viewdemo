@@ -47,6 +47,18 @@
         <activity android:name=".activity.BlurMaskFilterOneActivity"/>
         <activity android:name=".activity.BitmapShaderViewActivity"/>
         <activity android:name=".activity.TelescopeActivity"/>
+        <activity android:name=".activity.AvatorActivity"/>
+        <activity android:name=".activity.LinearGradientActivity"/>
+        <activity android:name=".activity.ShimmerTextActivity"/>
+        <activity android:name=".activity.RadialGradientActivity"/>
+        <activity android:name=".activity.PorterDuffXfermodeActivity"/>
+        <activity android:name=".activity.LightBookActivity"/>
+        <activity android:name=".activity.EraserActivity"/>
+        <activity android:name=".activity.MATRIX_SAVE_FLAG_Activity"/>
+        <activity android:name=".activity.CanvasTwoActivity"/>
+        <activity android:name=".activity.ShapeInstanceActivity"/>
+        <activity android:name=".activity.TelescopeoneActivity"/>
+        <activity android:name=".activity.CustomDrawableActivity"/>
     </application>
 
 </manifest>

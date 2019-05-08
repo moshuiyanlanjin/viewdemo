@@ -1,12 +1,18 @@
 package com.viewdemo.hz.viewdemo;
 
 import android.content.Intent;
-import android.graphics.BlurMaskFilter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.viewdemo.hz.viewdemo.activity.AvatorActivity;
+import com.viewdemo.hz.viewdemo.activity.CanvasTwoActivity;
+import com.viewdemo.hz.viewdemo.activity.CustomDrawableActivity;
+import com.viewdemo.hz.viewdemo.activity.EraserActivity;
+import com.viewdemo.hz.viewdemo.activity.LightBookActivity;
+import com.viewdemo.hz.viewdemo.activity.MATRIX_SAVE_FLAG_Activity;
+import com.viewdemo.hz.viewdemo.activity.PorterDuffXfermodeActivity;
 import com.viewdemo.hz.viewdemo.activity.BezierThreeActivity;
 import com.viewdemo.hz.viewdemo.activity.BezierTwoActivity;
 import com.viewdemo.hz.viewdemo.activity.AliPlayActivity;
@@ -20,6 +26,8 @@ import com.viewdemo.hz.viewdemo.activity.CustomCircleActivity;
 import com.viewdemo.hz.viewdemo.activity.FunctiononeActivity;
 import com.viewdemo.hz.viewdemo.activity.ImageValueanimtoroneActivity;
 import com.viewdemo.hz.viewdemo.activity.ItemAnimatorActivity;
+import com.viewdemo.hz.viewdemo.activity.LinearGradientActivity;
+import com.viewdemo.hz.viewdemo.activity.RadialGradientActivity;
 import com.viewdemo.hz.viewdemo.activity.RegiononeActivity;
 
 import com.viewdemo.hz.viewdemo.activity.Rotatethepop_upActivity;
@@ -28,9 +36,12 @@ import com.viewdemo.hz.viewdemo.activity.SVGuseActivity;
 import com.viewdemo.hz.viewdemo.activity.ScaleAnimationOneActivity;
 import com.viewdemo.hz.viewdemo.activity.ScannerActivity;
 import com.viewdemo.hz.viewdemo.activity.ShadowoneLayerActivity;
+import com.viewdemo.hz.viewdemo.activity.ShapeInstanceActivity;
+import com.viewdemo.hz.viewdemo.activity.ShimmerTextActivity;
 import com.viewdemo.hz.viewdemo.activity.SimpleparabolicActivity;
 import com.viewdemo.hz.viewdemo.activity.SpiderActivity;
 import com.viewdemo.hz.viewdemo.activity.TelescopeActivity;
+import com.viewdemo.hz.viewdemo.activity.TelescopeoneActivity;
 import com.viewdemo.hz.viewdemo.activity.TextOneActivity;
 import com.viewdemo.hz.viewdemo.activity.TextViewDemooneActivity;
 import com.viewdemo.hz.viewdemo.activity.ThelettermailActivity;
@@ -94,6 +105,18 @@ public class MainActivity extends AppCompatActivity {
         recylist.add("发光1");
         recylist.add("颜色填充");
         recylist.add("望远镜效果");
+        recylist.add("不规则头像");
+        recylist.add("线性颜色渐变");
+        recylist.add("闪光文字");
+        recylist.add("放射渐变");
+        recylist.add("合并颜色");
+        recylist.add("灯光效果");
+        recylist.add("橡皮擦");
+        recylist.add("画布操作1");
+        recylist.add("画布操作2");
+        recylist.add("shape测试1");
+        recylist.add("放大镜效果");
+        recylist.add("Draeable操作之圆角图片");
     }
 
     private void initview() {
@@ -224,6 +247,54 @@ public class MainActivity extends AppCompatActivity {
                     case 29:
                         //望远镜效果
                         startActivity(new Intent(MainActivity.this,TelescopeActivity.class));
+                        break;
+                    case 30:
+                        //不规则头像
+                        startActivity(new Intent(MainActivity.this,AvatorActivity.class));
+                        break;
+                    case 31:
+                        //颜色渐变
+                        startActivity(new Intent(MainActivity.this, LinearGradientActivity.class));
+                        break;
+                    case 32:
+                        //闪光文字
+                        startActivity(new Intent(MainActivity.this,ShimmerTextActivity.class));
+                        break;
+                    case 33:
+                        //放射渐变
+                        startActivity(new Intent(MainActivity.this, RadialGradientActivity.class));
+                        break;
+                    case 34:
+                        //合并颜色
+                        startActivity(new Intent(MainActivity.this,PorterDuffXfermodeActivity.class));
+                        break;
+                    case 35:
+                        //灯光效果
+                        startActivity(new Intent(MainActivity.this,LightBookActivity.class));
+                        break;
+                    case 36:
+                        //橡皮擦
+                        startActivity(new Intent(MainActivity.this,EraserActivity.class));
+                        break;
+                    case 37:
+                        //画布操作
+                        startActivity(new Intent(MainActivity.this,MATRIX_SAVE_FLAG_Activity.class));
+                        break;
+                    case 38:
+                        //画布操作
+                        startActivity(new Intent(MainActivity.this,CanvasTwoActivity.class));
+                        break;
+                    case 39:
+                        //shape测试
+                        startActivity(new Intent(MainActivity.this,ShapeInstanceActivity.class));
+                        break;
+                    case 40:
+                        //放大镜效果
+                        startActivity(new Intent(MainActivity.this,TelescopeoneActivity.class));
+                        break;
+                    case 41:
+                        //Drawable操作之圆角图片
+                        startActivity(new Intent(MainActivity.this,CustomDrawableActivity.class));
                         break;
                 }
             }

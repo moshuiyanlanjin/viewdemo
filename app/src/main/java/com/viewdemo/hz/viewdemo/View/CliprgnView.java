@@ -28,7 +28,7 @@ public class CliprgnView extends View {
 
     Bitmap bitmap;
 
-    Region region;
+   // Region region;
 
     int plwidth,plheigh,width,height;
     public CliprgnView(Context context) {
@@ -57,7 +57,7 @@ public class CliprgnView extends View {
         bitmap = Bitmap.createBitmap(bitmap,0,0,width,height,matrix,true);
         width = bitmap.getWidth();
         height = bitmap.getHeight();
-        region = new Region();
+      //  region = new Region();
         path = new Path();
         paint = new Paint();
     }

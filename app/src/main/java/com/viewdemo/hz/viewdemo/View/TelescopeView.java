@@ -43,6 +43,7 @@ public class TelescopeView extends View {
     }
 
     private void init() {
+        setLayerType(LAYER_TYPE_SOFTWARE,null);
         paint = new Paint();
         bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.bj);
     }
@@ -53,7 +54,7 @@ public class TelescopeView extends View {
             case MotionEvent.ACTION_DOWN:
                 dx = (int) event.getX();
                 dy = (int) event.getY();
-postInvalidate();
+                postInvalidate();
                 return true;
             case MotionEvent.ACTION_MOVE:
                 dx = (int) event.getX();
